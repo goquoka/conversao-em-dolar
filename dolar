@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+ public class Main {
+
+  public static void main(String[] args) {
+    final double CAMBIO_ATUAL = 5.4;
+    
+      Scanner s = new Scanner(System.in);
+    
+  System.out.println("qual valor em dolar?");
+    
+          double valorEmDolar = s.nextDouble();
+    
+  double valorEmReal = valorEmDolar*CAMBIO_ATUAL;
+    
+System.out.println("Valor em real: R$ "+valorEmReal); 
+   
+  }
+}
